@@ -1,0 +1,85 @@
+.calculatorbox {
+   
+   background-color: #353434;
+   width: 23.5%;
+   height: 450px;
+   margin: 50px;
+   border-radius: 20px;
+   padding-top: 10px;
+   border: solid rgb(189, 183, 183);
+   cursor: pointer;
+} 
+
+.area {
+    margin-left: 450px;
+}
+
+.screen {
+   
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    background: rgb(15, 22, 22);
+    width: 100%;
+    height: 23%;
+    font-size: xx-large;
+    color: rgb(247, 242, 242);
+    border-top: solid rgb(189, 183, 183);
+    border-bottom: solid rgb(189, 183, 183);
+}
+
+#answer {
+    font-weight: bold;
+}
+
+#history {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    color: rgb(17, 27, 27);
+    margin-left: 5px;
+    
+}
+
+.operation {
+    color: rgb(247, 61, 55);
+    background-color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.operation :hover {
+   
+    color: rgb(105, 44, 44);
+ }
+
+.topoperation {
+    color: rgb(43, 181, 199);
+    background-color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.int {
+    color: rgb(213, 213, 230);
+    background-color: black;
+    font-display: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    width: 49px;
+    height: 50px;
+    margin: 3px;
+    border-color:rgb(189, 183, 183) ;
+    cursor: pointer;
+}
+    

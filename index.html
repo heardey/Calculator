@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+
+<body>
+    <div class="area">
+        <div class="calculatorbox">
+
+            
+            <header class ="screen">
+                <div id="history"></div>
+                <div id="answer"></div>   
+            </header>
+            
+            <div class="buttons">
+                <div>
+                    <button class= "topoperation" onclick="clearScreen()">C</button>
+                </div>
+
+                <div>
+                    <button class="topoperation" onclick="clearEntireScreen()">AC</button>
+                </div>
+
+                <div>
+                    <button class="topoperation" onclick="percentageCalculation()">&percnt;</button>
+                </div>
+
+                <div>
+                    <button class ="operation" id = "divide" onclick="getKeyPressed('/')">&divide;</button>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div>
+                    <button class="int"onclick="getKeyPressed(7)">7</button>
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(8)">8</button>
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(9)">9</button>
+                </div>
+
+                <div>
+                    <button class ="operation" id= "multiply" onclick="getKeyPressed('*')">&times;</button>
+                </div>
+
+            </div>
+
+            <div class="buttons">
+                <div>
+                    <button class ="int" onclick="getKeyPressed(4)">4</button>
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(5)">5</button>
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(6)">6</button>
+                </div>
+
+                <div>
+                    <button class ="operation" id = "subtract" onclick="getKeyPressed('-')">&minus;</button>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div>
+                    <button class="int" onclick="getKeyPressed(1)">1</button>
+
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(2)">2</button>
+                </div>
+                
+                <div>
+                    <button class="int" onclick="getKeyPressed(3)">3</button>
+                </div>
+
+                <div>
+                    <button class="operation" id ="add" onclick="getKeyPressed('+')">+</button>
+                    <div><i></div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div>
+                    <button class="int" onclick="squareRoot()">&radic;</button>
+                </div>
+
+                <div>
+                    <button class="int" onclick="getKeyPressed(0)">0</button>
+                </div>
+
+                <div>
+                    <button class="int" id="dotsign" onclick="getKeyPressed('.')">.</button>
+                </div>
+
+                <div>
+                    <button class="operation" onclick="calculation()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
